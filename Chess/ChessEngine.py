@@ -10,18 +10,6 @@ class GameState():
         # The first character represents the color of the pieces and the second represents the type
         # "--"  represents an empty space
 
-        '''
-        self.board = [
-            ["--", "--", "--", "--", "--", "--", "--", "--"],  # Row 0 to Column 0 - 7
-            ["--", "--", "--", "--", "wK", "--", "--", "--"],  # Row 1 to Column 0 - 7
-            ["--", "--", "--", "--", "--", "--", "--", "--"],  # Row 2 to Column 0 - 7
-            ["--", "--", "--", "--", "--", "--", "--", "bK"],  # Row 3 to Column 0 - 7
-            ["--", "--", "--", "--", "--", "--", "--", "--"],  # Row 4 to Column 0 - 7
-            ["--", "--", "wp", "--", "--", "--", "--", "--"],  # Row 5 to Column 0 - 7
-            ["--", "--", "--", "--", "--", "--", "wR", "--"],  # Row 6 to Column 0 - 7
-            ["wQ", "--", "--", "--", "--", "--", "--", "--"]]  # Row 7 to Column 0 - 7
-        '''
-
         self.board = [
             ["bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR"],  # Row 0 to Column 0 - 7
             ["bp", "bp", "bp", "bp", "bp", "bp", "bp", "bp"],  # Row 1 to Column 0 - 7
